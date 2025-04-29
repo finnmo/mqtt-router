@@ -1,0 +1,58 @@
+###############################################################################
+# Top-level
+###############################################################################
+# Secrets / credentials
+.env
+AWS_Certificates/
+*.pem
+*.key
+
+# OS & editor noise
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp
+*.swo
+*.bak
+*.tmp
+.history/
+
+# Docker artefacts
+**/.docker-compose.override.yml
+**/*-override.yml
+**/docker-compose*.log
+.docker/
+
+###############################################################################
+# Mosquitto service
+###############################################################################
+mosquitto/data/
+mosquitto/log/
+mosquitto/config/passwd         # generated at container start
+mosquitto/config/*~             # editor swap/backup files
+
+###############################################################################
+# Router (Go)
+###############################################################################
+# Compiled binary
+router/mqtt-router
+router/*.exe
+router/*.dll
+router/*.so
+
+# Go build cache & modules
+**/bin/
+**/pkg/
+*.test
+
+# IDE tooling
+router/coverage.out
+
+###############################################################################
+# Miscellaneous
+###############################################################################
+# User-generated CSVs, temp data
+**/*.csv
+**/data/
+logs/

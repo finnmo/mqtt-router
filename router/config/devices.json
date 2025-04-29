@@ -1,0 +1,23 @@
+{
+    "site": "bentley",
+  
+    "devices": [
+      {
+        "deviceName": "front-gate-counter",
+        "thingName":  "FGC-001",
+        "type":       "bosch5100i",
+  
+        "inputTopic":  "site/{site}/fgc-001/onvif-ej/#",
+        "outputTopic": "site/{site}/fgc-001/telemetry"
+      },
+      {
+        "deviceName": "loading-dock-vs",
+        "thingName":  "LDC-006",
+        "type":       "vs135",
+  
+        "inputTopic":  "site/{site}/ldc-006/raw/#",
+        "outputTopic": "site/{site}/ldc-006/raw"
+      }
+    ]
+  }
+  
