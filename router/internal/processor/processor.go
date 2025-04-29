@@ -1,6 +1,6 @@
 package processor
 
-import "github.com/finnmo/mqtt-router/internal/model"
+import "github.com/finnmo/mqtt-router/router/internal/model"
 
 type PublishMsg struct {
     Topic   string

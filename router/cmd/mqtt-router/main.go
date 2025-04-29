@@ -8,9 +8,9 @@ import (
     "time"
 
     paho "github.com/eclipse/paho.golang/paho"
-    "github.com/your-org/mqtt-router/config"
-    "github.com/your-org/mqtt-router/internal/broker"
-    "github.com/your-org/mqtt-router/internal/router"
+    "github.com/finnmo/mqtt-router/router/config"
+    "github.com/finnmo/mqtt-router/router/internal/broker"
+    "github.com/finnmo/mqtt-router/router/internal/router"
 )
 
 func must[T any](v T, err error) T { if err != nil { log.Fatal(err) }; return v }

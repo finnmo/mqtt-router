@@ -3,7 +3,7 @@ package processor
 import (
     "encoding/json"
     "fmt"
-    "github.com/your-org/mqtt-router/internal/model"
+    "github.com/finnmo/mqtt-router/router/internal/model"
 )
 
 type bosch5100i struct{}

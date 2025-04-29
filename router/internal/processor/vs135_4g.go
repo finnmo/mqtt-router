@@ -1,6 +1,6 @@
 package processor
 
-import "github.com/your-org/mqtt-router/internal/model"
+import "github.com/finnmo/mqtt-router/router/internal/model"
 
 type passthrough struct{}
 

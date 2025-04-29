@@ -3,8 +3,8 @@ package router
 import (
     "context"
     mqtt "github.com/eclipse/paho.golang/paho"
-    "github.com/your-org/mqtt-router/internal/model"
-    "github.com/your-org/mqtt-router/internal/processor"
+    "github.com/finnmo/mqtt-router/router/internal/model"
+    "github.com/finnmo/mqtt-router/router/internal/processor"
     "log/slog"
     "strings"
 )
